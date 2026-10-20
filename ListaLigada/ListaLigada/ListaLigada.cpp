@@ -1,4 +1,4 @@
-#include <iostream>
+Ôªø#include <iostream>
 using namespace std;
 
 // definicao de tipo
@@ -70,7 +70,7 @@ void menu()
 
 void inicializar()
 {
-	// se a lista j· possuir elementos
+	// se a lista j√° possuir elementos
 // libera a memoria ocupada
 	NO* aux = primeiro;
 	while (aux != NULL) {
@@ -146,12 +146,12 @@ void excluirElemento()
 	cout << "Digite o elemento a excluir: " << endl;
 	cin >> valor;
 
-	//percorra com anterior e atual atÈ atual
-	//	ser o nÛ a excluir
-	//	religue : prox de anterior ? prox de atual
+	//percorra com anterior e atual at√© atual
+	//	ser o n√≥ a excluir
+	//	religue : prox de anterior ‚Üê prox de atual
 	//	se atual era o ultimo :
-	//ultimo ? anterior
-	//	libere o nÛ : free(atual)
+	//ultimo ‚Üê anterior
+	//	libere o n√≥ : free(atual)
 
 	if (valor == NULL) {
 		cout << "Elemento nao encontrado" << endl;
